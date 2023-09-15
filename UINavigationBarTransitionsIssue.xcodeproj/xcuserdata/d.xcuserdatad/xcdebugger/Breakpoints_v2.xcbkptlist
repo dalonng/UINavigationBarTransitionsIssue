@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CAD23599-9509-4DF9-BAAB-AC8C29B2A41C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D361D714-E986-411A-BCA7-2C97A89C8885"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UINavigationBarTransitionsIssue/NavigationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "center"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D361D714-E986-411A-BCA7-2C97A89C8885 - 6a2b50e793004e55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UINavigationBarTransitionsIssue.NavigationBar.center.didset : __C.CGPoint"
+                  moduleName = "UINavigationBarTransitionsIssue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/d/p/UINavigationBarTransitionsIssue/UINavigationBarTransitionsIssue/NavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "D361D714-E986-411A-BCA7-2C97A89C8885 - 6a2b50e793004e55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UINavigationBarTransitionsIssue.NavigationBar.center.didset : __C.CGPoint"
+                  moduleName = "UINavigationBarTransitionsIssue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/d/p/UINavigationBarTransitionsIssue/UINavigationBarTransitionsIssue/NavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "844">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A34A061-CB38-42D7-A205-9F19E903D4F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UINavigationBarTransitionsIssue/NavigationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "center"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E2DA65A-F9B0-40BC-8D50-3AD0A872410C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UINavigationBarTransitionsIssue/NavigationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "frame"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
