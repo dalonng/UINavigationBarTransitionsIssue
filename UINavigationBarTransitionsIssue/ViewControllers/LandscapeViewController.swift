@@ -57,15 +57,7 @@ class LandscapeViewController: BaseViewController {
         configuraton.title = "dismiss"
         button = UIButton(configuration: configuraton, primaryAction: UIAction() { _ in
             self.dismiss(animated: true) {
-                NavigationController.shared?.navigationSupportedInterfaceOrientations = .portrait
-                
-                
                 Coordinator.shared.supportedInterfaceOrientations = .portrait
-                if #available(iOS 16.0, *) {
-                    self.navigationController?.setNeedsUpdateOfSupportedInterfaceOrientations()
-                } else {
-                    // Fallback on earlier versions
-                }
             }
         })
         view.addSubview(button)

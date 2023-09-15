@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import FLEX
 
 class ViewController: BaseViewController {
 
@@ -28,14 +27,7 @@ class ViewController: BaseViewController {
     
     public override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         .portrait
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: true)
-        printNavigationInfo()
-        FLEXManager.shared.showExplorer()
-    }
+    }    
     
     func addButton() {
         var configuraton = UIButton.Configuration.filled()

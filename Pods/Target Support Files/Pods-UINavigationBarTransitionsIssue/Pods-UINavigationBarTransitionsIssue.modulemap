@@ -1,6 +1,0 @@
-framework module Pods_UINavigationBarTransitionsIssue {
-  umbrella header "Pods-UINavigationBarTransitionsIssue-umbrella.h"
-
-  export *
-  module * { export * }
-}

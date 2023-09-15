@@ -32,24 +32,6 @@ class PortraitViewController: BaseViewController {
         .portrait
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-//        navigationController?.setNavigationBarHidden(true, animated: true)
-        print("viewWillAppear center: \(String(describing: navigationController?.navigationBar.center))")
-//        navigationController?.setNavigationBarHidden(true, animated: false)
-        print("viewWillAppear2 center: \(String(describing: navigationController?.navigationBar.center))")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        printNavigationInfo()
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        printNavigationInfo()
-    }
-    
     func setup() {
         view.addSubview(playerView)
         playerView.backgroundColor = .red
@@ -95,12 +77,8 @@ class PortraitViewController: BaseViewController {
         landscapeViewController.playerView = playerView
         landscapeViewController.beforeFrame = playerView.frame
         landscapeViewController.finalFrame = view.bounds
-        
-        NavigationController.shared?.navigationSupportedInterfaceOrientations = .all
-        
+                
         Coordinator.shared.supportedInterfaceOrientations = .landscape
-        
-        navigationController?.parent?.parent?.present(landscapeViewController, animated: true)
-//        present(landscapeViewController, animated: true)
+        present(landscapeViewController, animated: true)
     }
 }

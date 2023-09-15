@@ -22,11 +22,7 @@ class HomeViewController: BaseViewController {
         view.addSubview(contentViewController.view)
         contentViewController.didMove(toParent: self)
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-    }
-    
+        
     override var shouldAutorotate: Bool {
         false
     }

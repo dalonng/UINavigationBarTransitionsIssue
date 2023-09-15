@@ -9,8 +9,8 @@ import UIKit
 
 class HomeContainerViewController: BaseViewController {
     
-    let currentNavigationController = NavigationController(navigationBarClass: NavigationBar.self,
-                                                           toolbarClass: UIToolbar.self)
+    let currentNavigationController = NavigationController(navigationBarClass: UINavigationBar.self,
+                                                                 toolbarClass: UIToolbar.self)
     
     override func viewDidLoad() {
         super.viewDidLoad()

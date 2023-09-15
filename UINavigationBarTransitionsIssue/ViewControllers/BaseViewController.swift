@@ -22,21 +22,7 @@ class BaseViewController: UIViewController {
         titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -100).isActive = true
         titleLabel.text = typeString
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        printNavigationInfo()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        printNavigationInfo()
-    }
-    
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-        printNavigationInfo()
-    }
+
 }
 
 extension UIViewController {
@@ -46,17 +32,6 @@ extension UIViewController {
             return String(type)
         }
         return ""
-    }
-    
-    func printNavigationInfo(_ function: String = #function) {
-        if let bar = navigationController?.navigationBar {
-            print("\(typeString) - \(function) NavigationBar center: \(bar.center), frame: \(bar.frame)")
-        }
-        if let nvc = self as? UINavigationController {
-            print("\(typeString) - \(function) NavigationBar center: \(nvc.navigationBar.center), frame: \(nvc.navigationBar.frame)")
-        }
-        print("\(typeString) - \(function) _contentOverlayInsets: \(String(describing: value(forKey: "_contentOverlayInsets")))")
-        print("\(typeString) - \(function) _topLayoutGuide: \(String(describing: value(forKey: "_topLayoutGuide")))")
     }
 }
 

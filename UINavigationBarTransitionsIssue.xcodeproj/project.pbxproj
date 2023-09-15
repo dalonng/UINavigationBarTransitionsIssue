@@ -21,13 +21,9 @@
 		0319F3272AA72902007DF0C3 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319F3262AA72902007DF0C3 /* Transition.swift */; };
 		0319F3292AA72C7D007DF0C3 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319F3282AA72C7D007DF0C3 /* NavigationController.swift */; };
 		035A2F162AAAC0D300E1912F /* HomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A2F152AAAC0D300E1912F /* HomeContainerViewController.swift */; };
-		0396BC082AAAF24B00BF31CC /* FLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 0396BC072AAAF24B00BF31CC /* FLEX */; };
 		0396BC0A2AAAFD3800BF31CC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396BC092AAAFD3800BF31CC /* Coordinator.swift */; };
-		039A1A832AAB354600B67A75 /* UINavigationController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 039A1A822AAB354600B67A75 /* UINavigationController+Swizzle.m */; };
-		039A1A892AAB35E200B67A75 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 039A1A882AAB35E200B67A75 /* JRSwizzle.m */; };
 		03DAF32D2AAABB5A00A4E513 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DAF32C2AAABB5A00A4E513 /* BaseViewController.swift */; };
 		03DAF32F2AAABB6600A4E513 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DAF32E2AAABB6600A4E513 /* HomeViewController.swift */; };
-		F2E666E252B9E0E4DD45B456 /* Pods_UINavigationBarTransitionsIssue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF0A5E6735C1091F3653580 /* Pods_UINavigationBarTransitionsIssue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,15 +63,9 @@
 		0319F3282AA72C7D007DF0C3 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		035A2F152AAAC0D300E1912F /* HomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerViewController.swift; sourceTree = "<group>"; };
 		0396BC092AAAFD3800BF31CC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		039A1A812AAB354600B67A75 /* UINavigationController+Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Swizzle.h"; sourceTree = "<group>"; };
-		039A1A822AAB354600B67A75 /* UINavigationController+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Swizzle.m"; sourceTree = "<group>"; };
-		039A1A872AAB35E100B67A75 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		039A1A882AAB35E200B67A75 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		03DAF32C2AAABB5A00A4E513 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		03DAF32E2AAABB6600A4E513 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7CF0A5E6735C1091F3653580 /* Pods_UINavigationBarTransitionsIssue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UINavigationBarTransitionsIssue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C19FB132BF34206A0D6D12E2 /* Pods-UINavigationBarTransitionsIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UINavigationBarTransitionsIssue.debug.xcconfig"; path = "Target Support Files/Pods-UINavigationBarTransitionsIssue/Pods-UINavigationBarTransitionsIssue.debug.xcconfig"; sourceTree = "<group>"; };
-		E3F381D842767296E6BEEAC2 /* Pods-UINavigationBarTransitionsIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UINavigationBarTransitionsIssue.release.xcconfig"; path = "Target Support Files/Pods-UINavigationBarTransitionsIssue/Pods-UINavigationBarTransitionsIssue.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0396BC082AAAF24B00BF31CC /* FLEX in Frameworks */,
-				F2E666E252B9E0E4DD45B456 /* Pods_UINavigationBarTransitionsIssue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +100,6 @@
 				0319E8A12AA71FF0007DF0C3 /* UINavigationBarTransitionsIssueTests */,
 				0319E8AB2AA71FF0007DF0C3 /* UINavigationBarTransitionsIssueUITests */,
 				0319E8892AA71FEE007DF0C3 /* Products */,
-				BE056616008F08AC579267E6 /* Pods */,
 				F27FD4E86EE7A07205D8C864 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -130,7 +117,6 @@
 		0319E88A2AA71FEE007DF0C3 /* UINavigationBarTransitionsIssue */ = {
 			isa = PBXGroup;
 			children = (
-				039A17692AAB33E300B67A75 /* Swizzle */,
 				03DAF32B2AAABB3C00A4E513 /* ViewControllers */,
 				0319F3252AA7287D007DF0C3 /* Transition */,
 				0319E88B2AA71FEE007DF0C3 /* AppDelegate.swift */,
@@ -168,17 +154,6 @@
 			path = Transition;
 			sourceTree = "<group>";
 		};
-		039A17692AAB33E300B67A75 /* Swizzle */ = {
-			isa = PBXGroup;
-			children = (
-				039A1A872AAB35E100B67A75 /* JRSwizzle.h */,
-				039A1A882AAB35E200B67A75 /* JRSwizzle.m */,
-				039A1A812AAB354600B67A75 /* UINavigationController+Swizzle.h */,
-				039A1A822AAB354600B67A75 /* UINavigationController+Swizzle.m */,
-			);
-			path = Swizzle;
-			sourceTree = "<group>";
-		};
 		03DAF32B2AAABB3C00A4E513 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,15 +167,6 @@
 				0396BC092AAAFD3800BF31CC /* Coordinator.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		BE056616008F08AC579267E6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C19FB132BF34206A0D6D12E2 /* Pods-UINavigationBarTransitionsIssue.debug.xcconfig */,
-				E3F381D842767296E6BEEAC2 /* Pods-UINavigationBarTransitionsIssue.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		F27FD4E86EE7A07205D8C864 /* Frameworks */ = {
@@ -218,7 +184,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0319E8B22AA71FF0007DF0C3 /* Build configuration list for PBXNativeTarget "UINavigationBarTransitionsIssue" */;
 			buildPhases = (
-				DF7EEFC575BB36154A8E5E8C /* [CP] Check Pods Manifest.lock */,
 				0319E8842AA71FEE007DF0C3 /* Sources */,
 				0319E8852AA71FEE007DF0C3 /* Frameworks */,
 				0319E8862AA71FEE007DF0C3 /* Resources */,
@@ -229,7 +194,6 @@
 			);
 			name = UINavigationBarTransitionsIssue;
 			packageProductDependencies = (
-				0396BC072AAAF24B00BF31CC /* FLEX */,
 			);
 			productName = UINavigationBarTransitionsIssue;
 			productReference = 0319E8882AA71FEE007DF0C3 /* UINavigationBarTransitionsIssue.app */;
@@ -305,7 +269,6 @@
 			);
 			mainGroup = 0319E87F2AA71FEE007DF0C3;
 			packageReferences = (
-				0396BC062AAAF24B00BF31CC /* XCRemoteSwiftPackageReference "FLEX" */,
 			);
 			productRefGroup = 0319E8892AA71FEE007DF0C3 /* Products */;
 			projectDirPath = "";
@@ -345,42 +308,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		DF7EEFC575BB36154A8E5E8C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UINavigationBarTransitionsIssue-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		0319E8842AA71FEE007DF0C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039A1A892AAB35E200B67A75 /* JRSwizzle.m in Sources */,
 				0319F3272AA72902007DF0C3 /* Transition.swift in Sources */,
 				0319E8902AA71FEE007DF0C3 /* ViewController.swift in Sources */,
 				0319E88C2AA71FEE007DF0C3 /* AppDelegate.swift in Sources */,
 				0319F3242AA723AF007DF0C3 /* LandscapeViewController.swift in Sources */,
-				039A1A832AAB354600B67A75 /* UINavigationController+Swizzle.m in Sources */,
 				0319E88E2AA71FEE007DF0C3 /* SceneDelegate.swift in Sources */,
 				03DAF32F2AAABB6600A4E513 /* HomeViewController.swift in Sources */,
 				0396BC0A2AAAFD3800BF31CC /* Coordinator.swift in Sources */,
@@ -564,7 +500,6 @@
 		};
 		0319E8B32AA71FF0007DF0C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19FB132BF34206A0D6D12E2 /* Pods-UINavigationBarTransitionsIssue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -596,7 +531,6 @@
 		};
 		0319E8B42AA71FF0007DF0C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3F381D842767296E6BEEAC2 /* Pods-UINavigationBarTransitionsIssue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -737,25 +671,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		0396BC062AAAF24B00BF31CC /* XCRemoteSwiftPackageReference "FLEX" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/FLEXTool/FLEX.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.22.10;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		0396BC072AAAF24B00BF31CC /* FLEX */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0396BC062AAAF24B00BF31CC /* XCRemoteSwiftPackageReference "FLEX" */;
-			productName = FLEX;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0319E8802AA71FEE007DF0C3 /* Project object */;
 }
